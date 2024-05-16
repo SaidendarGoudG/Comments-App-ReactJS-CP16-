@@ -1,0 +1,101 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comments-item-container {
+  display: flex;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.name-time-container {
+  display: flex;
+  flex-direction: row;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+  margin-top: 15px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+
+.button-transparent {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.like-del-container {
+  display: flex;
+}
+
+.like-image-container {
+  display: flex;
+}
+.like-image {
+  width: 30px;
+  height: 30px;
+}
+.like-text {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.active {
+  color: #0b69ff;
+}
+
+.del-image-container {
+  margin-left: auto;
+}
+.del-image {
+  width: 30px;
+  height: 30px;
+}
+
+.line {
+  background-color: #d6dfe9;
+  border: 1px solid #a9b6c8;
+  width: 100%;
+}
